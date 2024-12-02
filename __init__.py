@@ -13,10 +13,10 @@ python = sys.executable
 
 
 
-from .ImageBridge import Hailuo03,ImageStitcher,PromptRefine
+from .Hailuo03 import GetNSFWPrompt
 
 NODE_CLASS_MAPPINGS = {
-    "GetNSFWPrompt": Hailuo03,
+    "GetNSFWPrompt": GetNSFWPrompt,
 }
 
 
